@@ -10,38 +10,25 @@ import {
   assertEquals,
 } from "https://deno.land/std@0.132.0/testing/asserts.ts";
 
-const warmup = 1000;
-const n = 2000;
+const warmup = 10;
+const n = 1000;
+
+const fixture = await Deno.readTextFile(
+  new URL("./fixture.html", import.meta.url),
+);
 
 Deno.bench({
   name: "deno-dom",
   warmup,
   n,
   fn() {
-    const document = new DDDOMParser().parseFromString(
-      `<!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <title>Hello from Deno</title>
-      </head>
-      <body>
-        <h1>Hello from Deno</h1>
-        <form>
-          <input name="user">
-          <button>
-            Submit
-          </button>
-        </form>
-      </body>
-    </html>`,
-      "text/html",
-    );
+    const document = new DDDOMParser().parseFromString(fixture, "text/html");
 
     assert(document);
-    const h1 = document.querySelector("h1");
-    assert(h1);
+    const h2 = document.querySelector("h2");
+    assert(h2);
 
-    assertEquals(h1.textContent, "Hello from Deno");
+    assertEquals(h2.textContent, "mod.ts");
   },
 });
 
@@ -51,29 +38,15 @@ Deno.bench({
   n,
   fn() {
     const document = new DDNDOMParser().parseFromString(
-      `<!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <title>Hello from Deno</title>
-      </head>
-      <body>
-        <h1>Hello from Deno</h1>
-        <form>
-          <input name="user">
-          <button>
-            Submit
-          </button>
-        </form>
-      </body>
-    </html>`,
+      fixture,
       "text/html",
     );
 
     assert(document);
-    const h1 = document.querySelector("h1");
-    assert(h1);
+    const h2 = document.querySelector("h2");
+    assert(h2);
 
-    assertEquals(h1.textContent, "Hello from Deno");
+    assertEquals(h2.textContent, "mod.ts");
   },
 });
 
@@ -83,29 +56,15 @@ Deno.bench({
   n,
   fn() {
     const document = new LDDOMParser().parseFromString(
-      `<!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <title>Hello from Deno</title>
-      </head>
-      <body>
-        <h1>Hello from Deno</h1>
-        <form>
-          <input name="user">
-          <button>
-            Submit
-          </button>
-        </form>
-      </body>
-    </html>`,
+      fixture,
       "text/html",
     );
 
     assert(document);
-    const h1 = document.querySelector("h1");
-    assert(h1);
+    const h2 = document.querySelector("h2");
+    assert(h2);
 
-    assertEquals(h1.textContent, "Hello from Deno");
+    assertEquals(h2.textContent, "mod.ts");
   },
 });
 
@@ -115,28 +74,14 @@ Deno.bench({
   n,
   fn() {
     const { document } = parseHTML(
-      `<!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <title>Hello from Deno</title>
-      </head>
-      <body>
-        <h1>Hello from Deno</h1>
-        <form>
-          <input name="user">
-          <button>
-            Submit
-          </button>
-        </form>
-      </body>
-    </html>`,
+      fixture,
     );
 
     assert(document);
-    const h1 = document.querySelector("h1");
-    assert(h1);
+    const h2 = document.querySelector("h2");
+    assert(h2);
 
-    assertEquals(h1.textContent, "Hello from Deno");
+    assertEquals(h2.textContent, "mod.ts");
   },
 });
 
@@ -144,6 +89,7 @@ Deno.bench({
   name: "jsdom",
   warmup,
   n,
+  ignore: true,
   fn() {
     const dom = new JSDOM(
       `<!DOCTYPE html>
