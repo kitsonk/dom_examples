@@ -1,0 +1,2291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style id="__twind">
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      font-family: inherit;
+      font-size: 100%;
+      margin: 0;
+      padding: 0;
+      line-height: inherit;
+      color: inherit
+    }
+
+    * {
+      --tw-ring-inset: var(--tw-empty,
+          /*!*/
+          /*!*/
+        );
+      --tw-ring-offset-width: 0px;
+      --tw-ring-offset-color: #fff;
+      --tw-ring-color: rgba(14, 165, 233, var(--tw-ring-opacity, 0.5));
+      --tw-ring-offset-shadow: 0 0 transparent;
+      --tw-ring-shadow: 0 0 transparent
+    }
+
+    sub,
+    sup {
+      font-size: 75%;
+      line-height: 0;
+      position: relative;
+      vertical-align: baseline
+    }
+
+    html {
+      line-height: 1.5;
+      -webkit-text-size-adjust: 100%;
+      font-family: Inter var, system-ui, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif
+    }
+
+    table {
+      text-indent: 0;
+      border-color: inherit;
+      border-collapse: collapse
+    }
+
+    hr {
+      height: 0;
+      color: inherit;
+      border-top-width: 1px
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+      opacity: 1;
+      color: #9ca3af
+    }
+
+    ::-webkit-file-upload-button {
+      -webkit-appearance: button;
+      font: inherit
+    }
+
+    button {
+      background-color: transparent;
+      background-image: none
+    }
+
+    body {
+      font-family: inherit;
+      line-height: inherit
+    }
+
+    *,
+    ::before,
+    ::after {
+      box-sizing: border-box;
+      border: 0 solid #e5e7eb
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-size: inherit;
+      font-weight: inherit
+    }
+
+    a {
+      color: inherit;
+      -webkit-text-decoration: inherit;
+      text-decoration: inherit
+    }
+
+    ::-moz-focus-inner {
+      border-style: none;
+      padding: 0
+    }
+
+    [type="search"] {
+      -webkit-appearance: textfield;
+      outline-offset: -2px
+    }
+
+    pre,
+    code,
+    kbd,
+    samp {
+      font-family: Menlo, Monaco, Lucida Console, Consolas, Liberation Mono, Courier New, monospace;
+      font-size: 1em
+    }
+
+    img,
+    svg,
+    video,
+    canvas,
+    audio,
+    iframe,
+    embed,
+    object {
+      display: block;
+      vertical-align: middle
+    }
+
+    img,
+    video {
+      max-width: 100%;
+      height: auto
+    }
+
+    html {
+      --tw-bg-opacity: 1;
+      background-color: #fff;
+      background-color: rgba(255, 255, 255, var(--tw-bg-opacity))
+    }
+
+    :target,
+    :target>* {
+      --tw-bg-opacity: 1;
+      background-color: #e5e7eb;
+      background-color: rgba(229, 231, 235, var(--tw-bg-opacity))
+    }
+
+    body,
+    blockquote,
+    dl,
+    dd,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    hr,
+    figure,
+    p,
+    pre,
+    fieldset,
+    ol,
+    ul {
+      margin: 0
+    }
+
+    button:focus {
+      outline: 1px dotted;
+      outline: 5px auto -webkit-focus-ring-color
+    }
+
+    fieldset,
+    ol,
+    ul,
+    legend {
+      padding: 0
+    }
+
+    textarea {
+      resize: vertical
+    }
+
+    button,
+    [role="button"] {
+      cursor: pointer
+    }
+
+    :-moz-focusring {
+      outline: 1px dotted ButtonText
+    }
+
+    ::-webkit-inner-spin-button,
+    ::-webkit-outer-spin-button {
+      height: auto
+    }
+
+    summary {
+      display: list-item
+    }
+
+    :root {
+      -moz-tab-size: 4;
+      tab-size: 4
+    }
+
+    ol,
+    ul {
+      list-style: none
+    }
+
+    img {
+      border-style: solid
+    }
+
+    button,
+    select {
+      text-transform: none
+    }
+
+    :-moz-ui-invalid {
+      box-shadow: none
+    }
+
+    progress {
+      vertical-align: baseline
+    }
+
+    abbr[title] {
+      -webkit-text-decoration: underline dotted;
+      text-decoration: underline dotted
+    }
+
+    b,
+    strong {
+      font-weight: bolder
+    }
+
+    sub {
+      bottom: -0.25em
+    }
+
+    sup {
+      top: -0.5em
+    }
+
+    button,
+    [type="button"],
+    [type="reset"],
+    [type="submit"] {
+      -webkit-appearance: button
+    }
+
+    ::-webkit-search-decoration {
+      -webkit-appearance: none
+    }
+
+    * {
+      --tw-shadow: 0 0 transparent
+    }
+
+    @media (prefers-color-scheme:dark) {
+      html {
+        --tw-bg-opacity: 1;
+        background-color: #111827;
+        background-color: rgba(17, 24, 39, var(--tw-bg-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+
+      :target,
+      :target>* {
+        --tw-bg-opacity: 1;
+        background-color: #1f2937;
+        background-color: rgba(31, 41, 55, var(--tw-bg-opacity))
+      }
+    }
+
+    .tw-1esk77l :not(pre)>code {
+      font-family: Menlo, Monaco, Lucida Console, Consolas, Liberation Mono, Courier New, monospace;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      padding-bottom: 0.25rem;
+      padding-top: 0.25rem;
+      padding-left: 0.375rem;
+      padding-right: 0.375rem;
+      border-radius: 0.25rem;
+      --tw-text-opacity: 1;
+      color: #000;
+      color: rgba(0, 0, 0, var(--tw-text-opacity));
+      --tw-bg-opacity: 1;
+      background-color: #f3f4f6;
+      background-color: rgba(243, 244, 246, var(--tw-bg-opacity))
+    }
+
+    .tw-1esk77l pre {
+      font-family: Menlo, Monaco, Lucida Console, Consolas, Liberation Mono, Courier New, monospace;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      padding: 0.625rem;
+      border-radius: 0.5rem;
+      --tw-text-opacity: 1;
+      color: #000;
+      color: rgba(0, 0, 0, var(--tw-text-opacity));
+      --tw-bg-opacity: 1;
+      background-color: #f3f4f6;
+      background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+      overflow-x: auto
+    }
+
+    .tw-1nkr705 {
+      font-family: Menlo, Monaco, Lucida Console, Consolas, Liberation Mono, Courier New, monospace;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+      padding: 0.75rem;
+      border-radius: 0.5rem;
+      --tw-bg-opacity: 1;
+      background-color: #f9fafb;
+      background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
+      overflow-x: auto
+    }
+
+    .tw-17gss7d {
+      font-size: 1.5rem;
+      line-height: 2rem;
+      border-bottom-width: 1px;
+      --tw-border-opacity: 1;
+      border-color: #9ca3af;
+      border-color: rgba(156, 163, 175, var(--tw-border-opacity));
+      padding: 0.5rem;
+      margin-top: 0.25rem;
+      margin-bottom: 0.75rem
+    }
+
+    .tw-125763g {
+      --tw-text-opacity: 1;
+      color: #111827;
+      color: rgba(17, 24, 39, var(--tw-text-opacity));
+      margin-top: 0.75rem;
+      margin-bottom: 0.25rem;
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+      font-weight: 700
+    }
+
+    .tw-xn3ar9 {
+      opacity: 0;
+      position: absolute;
+      background-color: transparent;
+      --tw-text-opacity: 1;
+      color: #4b5563;
+      color: rgba(75, 85, 99, var(--tw-text-opacity));
+      margin-left: -1em;
+      padding-right: 0.5em
+    }
+
+    .tw-d0anel {
+      font-size: 1.5rem;
+      line-height: 2rem;
+      --tw-text-opacity: 1;
+      color: #111827;
+      color: rgba(17, 24, 39, var(--tw-text-opacity));
+      font-weight: 700;
+      margin-bottom: 0.75rem
+    }
+
+    .tw-19rse9f {
+      padding: 1.5rem;
+      --tw-bg-opacity: 1;
+      background-color: #f3f4f6;
+      background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+      border-bottom-width: 1px;
+      --tw-border-opacity: 1;
+      border-color: #d1d5db;
+      border-color: rgba(209, 213, 219, var(--tw-border-opacity))
+    }
+
+    .tw-1esk77l td {
+      padding: 0.5rem;
+      border-width: 1px;
+      border-style: solid;
+      --tw-border-opacity: 1;
+      border-color: #6b7280;
+      border-color: rgba(107, 114, 128, var(--tw-border-opacity))
+    }
+
+    .tw-vfhdfy {
+      position: relative;
+      padding-bottom: 0.5rem;
+      padding-top: 0.5rem;
+      padding-left: 0.25rem;
+      padding-right: 0.25rem
+    }
+
+    .tw-j2pie2 {
+      max-width: 1280px;
+      margin-left: auto;
+      margin-right: auto;
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: repeat(1, minmax(0, 1fr));
+      grid-template-columns: repeat(1, minmax(0, 1fr))
+    }
+
+    .tw-1esk77l {
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      text-align: justify
+    }
+
+    .tw-1esk77l>:not([hidden])~:not([hidden]) {
+      --tw-space-y-reverse: 0;
+      margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+      margin-top: 1rem;
+      margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)))
+    }
+
+    .tw-1esk77l hr {
+      margin: 0.5rem;
+      --tw-border-opacity: 1;
+      border-color: #6b7280;
+      border-color: rgba(107, 114, 128, var(--tw-border-opacity))
+    }
+
+    .tw-1esk77l .code-type,
+    .tw-1esk77l .code-built_in {
+      --tw-text-opacity: 1;
+      color: #0891b2;
+      color: rgba(8, 145, 178, var(--tw-text-opacity));
+      font-style: italic
+    }
+
+    .tw-iaiukg>:not([hidden])~:not([hidden]) {
+      --tw-space-y-reverse: 0;
+      margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+      margin-top: 1rem;
+      margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)))
+    }
+
+    .tw-6yvgvw {
+      --tw-text-opacity: 1;
+      color: #0891b2;
+      color: rgba(8, 145, 178, var(--tw-text-opacity));
+      font-style: italic
+    }
+
+    .tw-8ej7ai {
+      position: relative;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem
+    }
+
+    .tw-1esk77l .code-comment {
+      --tw-text-opacity: 1;
+      color: #6b7280;
+      color: rgba(107, 114, 128, var(--tw-text-opacity))
+    }
+
+    .tw-1esk77l .code-function {
+      --tw-text-opacity: 1;
+      color: #047857;
+      color: rgba(4, 120, 87, var(--tw-text-opacity))
+    }
+
+    .tw-1esk77l .code-literal {
+      --tw-text-opacity: 1;
+      color: #0891b2;
+      color: rgba(8, 145, 178, var(--tw-text-opacity))
+    }
+
+    .tw-1esk77l .code-keyword,
+    .tw-1esk77l .code-operator,
+    .tw-1esk77l .code-variable.code-language {
+      --tw-text-opacity: 1;
+      color: #86198f;
+      color: rgba(134, 25, 143, var(--tw-text-opacity))
+    }
+
+    .tw-1esk77l .code-number,
+    .tw-1esk77l .code-doctag {
+      --tw-text-opacity: 1;
+      color: #4f46e5;
+      color: rgba(79, 70, 229, var(--tw-text-opacity))
+    }
+
+    .tw-1esk77l .code-regexp {
+      --tw-text-opacity: 1;
+      color: #b91c1c;
+      color: rgba(185, 28, 28, var(--tw-text-opacity))
+    }
+
+    .tw-1esk77l .code-string {
+      --tw-text-opacity: 1;
+      color: #f59e0b;
+      color: rgba(245, 158, 11, var(--tw-text-opacity))
+    }
+
+    .tw-18hyoot {
+      --tw-text-opacity: 1;
+      color: #86198f;
+      color: rgba(134, 25, 143, var(--tw-text-opacity))
+    }
+
+    .tw-z19beg {
+      --tw-text-opacity: 1;
+      color: #047857;
+      color: rgba(4, 120, 87, var(--tw-text-opacity))
+    }
+
+    .tw-aagwe7 {
+      --tw-text-opacity: 1;
+      color: #0284c7;
+      color: rgba(2, 132, 199, var(--tw-text-opacity))
+    }
+
+    .tw-2h7e3c {
+      --tw-text-opacity: 1;
+      color: #f59e0b;
+      color: rgba(245, 158, 11, var(--tw-text-opacity))
+    }
+
+    .tw-1esk77l p {
+      margin-bottom: 0.25rem;
+      margin-top: 0.25rem
+    }
+
+    .tw-1esk77l th {
+      font-weight: 700;
+      text-align: center
+    }
+
+    .tw-1esk77l h1 {
+      font-size: 1.25rem;
+      line-height: 1.75rem
+    }
+
+    .tw-1esk77l h2 {
+      font-size: 1.125rem;
+      line-height: 1.75rem
+    }
+
+    .tw-iaiukg {
+      display: flex;
+      flex-direction: column
+    }
+
+    .tw-baauk4 {
+      padding: 1.5rem
+    }
+
+    .group:hover .tw-xn3ar9 {
+      opacity: 1
+    }
+
+    .tw-1esk77l a {
+      -webkit-text-decoration: underline;
+      text-decoration: underline
+    }
+
+    .tw-1esk77l table {
+      table-layout: auto
+    }
+
+    .tw-1esk77l h3 {
+      font-weight: 700
+    }
+
+    .tw-1esk77l h4 {
+      font-weight: 600
+    }
+
+    .tw-1esk77l h5 {
+      font-style: italic
+    }
+
+    .tw-1h2u08d {
+      -webkit-text-decoration: underline;
+      text-decoration: underline
+    }
+
+    .tw-1tdeu7j {
+      margin-left: 1rem
+    }
+
+    .tw-1owjy05 {
+      margin-top: 1rem
+    }
+
+    .tw-1dhtncf {
+      font-weight: 700
+    }
+
+    .tw-1esk77l ol {
+      list-style-type: decimal
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .tw-19rse9f {
+        --tw-bg-opacity: 1;
+        background-color: #111827;
+        background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
+        --tw-border-opacity: 1;
+        border-color: #1f2937;
+        border-color: rgba(31, 41, 55, var(--tw-border-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .tw-1esk77l :not(pre)>code {
+        --tw-text-opacity: 1;
+        color: #fff;
+        color: rgba(255, 255, 255, var(--tw-text-opacity));
+        --tw-bg-opacity: 1;
+        background-color: #1f2937;
+        background-color: rgba(31, 41, 55, var(--tw-bg-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .tw-1esk77l pre {
+        --tw-text-opacity: 1;
+        color: #fff;
+        color: rgba(255, 255, 255, var(--tw-text-opacity));
+        --tw-bg-opacity: 1;
+        background-color: #1f2937;
+        background-color: rgba(31, 41, 55, var(--tw-bg-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .tw-125763g {
+        --tw-text-opacity: 1;
+        color: #f9fafb;
+        color: rgba(249, 250, 251, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .tw-d0anel {
+        --tw-text-opacity: 1;
+        color: #f9fafb;
+        color: rgba(249, 250, 251, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .tw-1esk77l .code-comment {
+        --tw-text-opacity: 1;
+        color: #9ca3af;
+        color: rgba(156, 163, 175, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .tw-1esk77l .code-function {
+        --tw-text-opacity: 1;
+        color: #6ee7b7;
+        color: rgba(110, 231, 183, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .tw-1esk77l .code-literal {
+        --tw-text-opacity: 1;
+        color: #22d3ee;
+        color: rgba(34, 211, 238, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+
+      .tw-1esk77l .code-keyword,
+      .tw-1esk77l .code-operator,
+      .tw-1esk77l .code-variable.code-language {
+        --tw-text-opacity: 1;
+        color: #f0abfc;
+        color: rgba(240, 171, 252, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+
+      .tw-1esk77l .code-number,
+      .tw-1esk77l .code-doctag {
+        --tw-text-opacity: 1;
+        color: #818cf8;
+        color: rgba(129, 140, 248, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .tw-1esk77l .code-regexp {
+        --tw-text-opacity: 1;
+        color: #fca5a5;
+        color: rgba(252, 165, 165, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .tw-1esk77l .code-string {
+        --tw-text-opacity: 1;
+        color: #fde68a;
+        color: rgba(253, 230, 138, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+
+      .tw-1esk77l .code-type,
+      .tw-1esk77l .code-built_in {
+        --tw-text-opacity: 1;
+        color: #22d3ee;
+        color: rgba(34, 211, 238, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .tw-18hyoot {
+        --tw-text-opacity: 1;
+        color: #f0abfc;
+        color: rgba(240, 171, 252, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .tw-6yvgvw {
+        --tw-text-opacity: 1;
+        color: #22d3ee;
+        color: rgba(34, 211, 238, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .tw-z19beg {
+        --tw-text-opacity: 1;
+        color: #6ee7b7;
+        color: rgba(110, 231, 183, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .tw-aagwe7 {
+        --tw-text-opacity: 1;
+        color: #38bdf8;
+        color: rgba(56, 189, 248, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .tw-2h7e3c {
+        --tw-text-opacity: 1;
+        color: #fde68a;
+        color: rgba(253, 230, 138, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .tw-xn3ar9 {
+        --tw-text-opacity: 1;
+        color: #9ca3af;
+        color: rgba(156, 163, 175, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .tw-1esk77l hr {
+        --tw-border-opacity: 1;
+        border-color: #9ca3af;
+        border-color: rgba(156, 163, 175, var(--tw-border-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .tw-1esk77l td {
+        --tw-border-opacity: 1;
+        border-color: #9ca3af;
+        border-color: rgba(156, 163, 175, var(--tw-border-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .tw-1nkr705 {
+        --tw-bg-opacity: 1;
+        background-color: #1f2937;
+        background-color: rgba(31, 41, 55, var(--tw-bg-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .tw-17gss7d {
+        --tw-border-opacity: 1;
+        border-color: #4b5563;
+        border-color: rgba(75, 85, 99, var(--tw-border-opacity))
+      }
+    }
+
+    @media (min-width:640px) {
+      .tw-19rse9f {
+        padding-bottom: 3rem;
+        padding-top: 3rem
+      }
+    }
+
+    @media (min-width:768px) {
+      .tw-1esk77l h3 {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        font-weight: 400
+      }
+    }
+
+    @media (min-width:768px) {
+      .tw-baauk4 {
+        grid-column: span 3 / span 3;
+        padding: 3rem
+      }
+    }
+
+    @media (min-width:768px) {
+      .tw-d0anel {
+        font-size: 1.875rem;
+        line-height: 2.25rem
+      }
+    }
+
+    @media (min-width:768px) {
+      .tw-1esk77l h1 {
+        font-size: 1.5rem;
+        line-height: 2rem
+      }
+    }
+
+    @media (min-width:768px) {
+      .tw-1esk77l h2 {
+        font-size: 1.25rem;
+        line-height: 1.75rem
+      }
+    }
+
+    @media (min-width:768px) {
+      .tw-1esk77l h4 {
+        font-weight: 700
+      }
+    }
+
+    @media (min-width:768px) {
+      .tw-1esk77l h5 {
+        font-weight: 600
+      }
+    }
+
+    @media (min-width:768px) {
+      .tw-1esk77l h6 {
+        font-style: italic
+      }
+    }
+
+    @media (min-width:1024px) {
+      .tw-19rse9f {
+        background-color: transparent;
+        border-bottom-width: 0px;
+        border-right-width: 1px;
+        --tw-border-opacity: 1;
+        border-color: #e5e7eb;
+        border-color: rgba(229, 231, 235, var(--tw-border-opacity))
+      }
+    }
+
+    @media (min-width:1024px) {
+      .tw-1esk77l h3 {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        font-weight: 400
+      }
+    }
+
+    @media (min-width:1024px) {
+      .tw-1esk77l h4 {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        font-weight: 400
+      }
+    }
+
+    @media (min-width:1024px) {
+      .tw-d0anel {
+        font-size: 2.25rem;
+        line-height: 2.5rem
+      }
+    }
+
+    @media (min-width:1024px) {
+      .tw-1esk77l h1 {
+        font-size: 1.875rem;
+        line-height: 2.25rem
+      }
+    }
+
+    @media (min-width:1024px) {
+      .tw-1esk77l h2 {
+        font-size: 1.5rem;
+        line-height: 2rem
+      }
+    }
+
+    @media (min-width:1024px) {
+      .tw-1esk77l ul {
+        list-style-type: disc;
+        list-style-position: inside
+      }
+    }
+
+    @media (min-width:1024px) {
+      .tw-1esk77l h5 {
+        font-weight: 700
+      }
+    }
+
+    @media (min-width:1024px) {
+      .tw-1esk77l h6 {
+        font-weight: 600
+      }
+    }
+
+    @media (min-width:1024px) {
+      .tw-j2pie2 {
+        -ms-grid-columns: repeat(4, minmax(0, 1fr));
+        grid-template-columns: repeat(4, minmax(0, 1fr))
+      }
+    }
+
+    @media (min-width:1024px) {
+      .tw-1esk77l ol {
+        list-style-position: inside
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      @media (min-width:1024px) {
+        .tw-19rse9f {
+          --tw-border-opacity: 1;
+          border-color: #374151;
+          border-color: rgba(55, 65, 81, var(--tw-border-opacity))
+        }
+      }
+    }
+
+    .truncate {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis
+    }
+
+    .text-gray-400 {
+      --tw-text-opacity: 1;
+      color: #9ca3af;
+      color: rgba(156, 163, 175, var(--tw-text-opacity))
+    }
+
+    .text-gray-700 {
+      --tw-text-opacity: 1;
+      color: #374151;
+      color: rgba(55, 65, 81, var(--tw-text-opacity))
+    }
+
+    .text-gray-900 {
+      --tw-text-opacity: 1;
+      color: #111827;
+      color: rgba(17, 24, 39, var(--tw-text-opacity))
+    }
+
+    .text-gray-600 {
+      --tw-text-opacity: 1;
+      color: #4b5563;
+      color: rgba(75, 85, 99, var(--tw-text-opacity))
+    }
+
+    .text-gray-500 {
+      --tw-text-opacity: 1;
+      color: #6b7280;
+      color: rgba(107, 114, 128, var(--tw-text-opacity))
+    }
+
+    .bg-white {
+      --tw-bg-opacity: 1;
+      background-color: #fff;
+      background-color: rgba(255, 255, 255, var(--tw-bg-opacity))
+    }
+
+    .bg-gray-50 {
+      --tw-bg-opacity: 1;
+      background-color: #f9fafb;
+      background-color: rgba(249, 250, 251, var(--tw-bg-opacity))
+    }
+
+    .border-gray-200 {
+      --tw-border-opacity: 1;
+      border-color: #e5e7eb;
+      border-color: rgba(229, 231, 235, var(--tw-border-opacity))
+    }
+
+    .py-6 {
+      padding-bottom: 1.5rem;
+      padding-top: 1.5rem
+    }
+
+    .mx-auto {
+      margin-left: auto;
+      margin-right: auto
+    }
+
+    .px-4 {
+      padding-left: 1rem;
+      padding-right: 1rem
+    }
+
+    .my-2 {
+      margin-bottom: 0.5rem;
+      margin-top: 0.5rem
+    }
+
+    .px-2 {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem
+    }
+
+    .px-3 {
+      padding-left: 0.75rem;
+      padding-right: 0.75rem
+    }
+
+    .py-2 {
+      padding-bottom: 0.5rem;
+      padding-top: 0.5rem
+    }
+
+    .text-base {
+      font-size: 1rem;
+      line-height: 1.5rem
+    }
+
+    .text-xl {
+      font-size: 1.25rem;
+      line-height: 1.75rem
+    }
+
+    .text-sm {
+      font-size: 0.875rem;
+      line-height: 1.25rem
+    }
+
+    .border-gray-300 {
+      --tw-border-opacity: 1;
+      border-color: #d1d5db;
+      border-color: rgba(209, 213, 219, var(--tw-border-opacity))
+    }
+
+    .py-12 {
+      padding-bottom: 3rem;
+      padding-top: 3rem
+    }
+
+    .-mx-5 {
+      margin-left: calc(1.25rem * -1);
+      margin-right: calc(1.25rem * -1)
+    }
+
+    .-my-2 {
+      margin-bottom: calc(0.5rem * -1);
+      margin-top: calc(0.5rem * -1)
+    }
+
+    .h-screen {
+      height: 100vh
+    }
+
+    .relative {
+      position: relative
+    }
+
+    .flex {
+      display: flex
+    }
+
+    .h-10 {
+      height: 2.5rem
+    }
+
+    .w-auto {
+      width: auto
+    }
+
+    .hidden {
+      display: none
+    }
+
+    .inline-flex {
+      display: inline-flex
+    }
+
+    .p-2 {
+      padding: 0.5rem
+    }
+
+    .h-6 {
+      height: 1.5rem
+    }
+
+    .w-6 {
+      width: 1.5rem
+    }
+
+    .w-screen {
+      width: 100vw
+    }
+
+    .block {
+      display: block
+    }
+
+    .h-3 {
+      height: 0.75rem
+    }
+
+    .inline-block {
+      display: inline-block
+    }
+
+    .float-right {
+      float: right
+    }
+
+    .overflow-auto {
+      overflow: auto
+    }
+
+    .overflow-hidden {
+      overflow: hidden
+    }
+
+    .z-10 {
+      z-index: 10
+    }
+
+    .flex-wrap {
+      flex-wrap: wrap
+    }
+
+    .items-center {
+      align-items: center
+    }
+
+    .justify-between {
+      justify-content: space-between
+    }
+
+    .max-w-screen-lg {
+      max-width: 1024px
+    }
+
+    .-mr-2 {
+      margin-right: calc(0.5rem * -1)
+    }
+
+    .justify-center {
+      justify-content: center
+    }
+
+    .pt-4 {
+      padding-top: 1rem
+    }
+
+    .pb-3 {
+      padding-bottom: 0.75rem
+    }
+
+    .font-medium {
+      font-weight: 500
+    }
+
+    .font-bold {
+      font-weight: 700
+    }
+
+    .mt-2 {
+      margin-top: 0.5rem
+    }
+
+    .mr-1 {
+      margin-right: 0.25rem
+    }
+
+    .font-sans {
+      font-family: Inter var, system-ui, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif
+    }
+
+    .border {
+      border-width: 1px
+    }
+
+    .font-mono {
+      font-family: Menlo, Monaco, Lucida Console, Consolas, Liberation Mono, Courier New, monospace
+    }
+
+    .break-words {
+      word-wrap: break-word;
+      overflow-wrap: break-word
+    }
+
+    .pl-2 {
+      padding-left: 0.5rem
+    }
+
+    .mt-20 {
+      margin-top: 5rem
+    }
+
+    .max-w-screen-xl {
+      max-width: 1280px
+    }
+
+    .leading-6 {
+      line-height: 1.5rem
+    }
+
+    .rounded-md {
+      border-radius: 0.375rem
+    }
+
+    .rounded {
+      border-radius: 0.25rem
+    }
+
+    .border-b {
+      border-bottom-width: 1px
+    }
+
+    .hover\:text-gray-500:hover {
+      --tw-text-opacity: 1;
+      color: #6b7280;
+      color: rgba(107, 114, 128, var(--tw-text-opacity))
+    }
+
+    .hover\:text-gray-900:hover {
+      --tw-text-opacity: 1;
+      color: #111827;
+      color: rgba(17, 24, 39, var(--tw-text-opacity))
+    }
+
+    .hover\:text-gray-800:hover {
+      --tw-text-opacity: 1;
+      color: #1f2937;
+      color: rgba(31, 41, 55, var(--tw-text-opacity))
+    }
+
+    .hover\:bg-gray-100:hover {
+      --tw-bg-opacity: 1;
+      background-color: #f3f4f6;
+      background-color: rgba(243, 244, 246, var(--tw-bg-opacity))
+    }
+
+    .hover\:bg-gray-50:hover {
+      --tw-bg-opacity: 1;
+      background-color: #f9fafb;
+      background-color: rgba(249, 250, 251, var(--tw-bg-opacity))
+    }
+
+    .hover\:shadow:hover {
+      --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+      box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow)
+    }
+
+    .hover\:underline:hover {
+      -webkit-text-decoration: underline;
+      text-decoration: underline
+    }
+
+    .focus\:text-gray-500:focus {
+      --tw-text-opacity: 1;
+      color: #6b7280;
+      color: rgba(107, 114, 128, var(--tw-text-opacity))
+    }
+
+    .focus\:text-gray-900:focus {
+      --tw-text-opacity: 1;
+      color: #111827;
+      color: rgba(17, 24, 39, var(--tw-text-opacity))
+    }
+
+    .focus\:outline-none:focus {
+      outline: 2px solid transparent;
+      outline-offset: 2px
+    }
+
+    .focus\:bg-gray-100:focus {
+      --tw-bg-opacity: 1;
+      background-color: #f3f4f6;
+      background-color: rgba(243, 244, 246, var(--tw-bg-opacity))
+    }
+
+    .focus\:bg-gray-50:focus {
+      --tw-bg-opacity: 1;
+      background-color: #f9fafb;
+      background-color: rgba(249, 250, 251, var(--tw-bg-opacity))
+    }
+
+    .focus-visible\:ring-2:focus-visible {
+      --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+      --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+      box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 transparent)
+    }
+
+    @media (min-width:640px) {
+      .sm\:px-6 {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem
+      }
+    }
+
+    @media (min-width:640px) {
+      .sm\:h-12 {
+        height: 3rem
+      }
+    }
+
+    @media (min-width:768px) {
+      .md\:text-gray-500 {
+        --tw-text-opacity: 1;
+        color: #6b7280;
+        color: rgba(107, 114, 128, var(--tw-text-opacity))
+      }
+    }
+
+    @media (min-width:768px) {
+      .md\:px-8 {
+        padding-left: 2rem;
+        padding-right: 2rem
+      }
+    }
+
+    @media (min-width:768px) {
+      .md\:hidden {
+        display: none
+      }
+    }
+
+    @media (min-width:768px) {
+      .md\:flex {
+        display: flex
+      }
+    }
+
+    @media (min-width:768px) {
+      .md\:w-auto {
+        width: auto
+      }
+    }
+
+    @media (min-width:768px) {
+      .md\:inline-block {
+        display: inline-block
+      }
+    }
+
+    @media (min-width:768px) {
+      .md\:font-medium {
+        font-weight: 500
+      }
+    }
+
+    @media (min-width:1024px) {
+      .lg\:text-2xl {
+        font-size: 1.5rem;
+        line-height: 2rem
+      }
+    }
+
+    @media (min-width:1024px) {
+      .lg\:text-xl {
+        font-size: 1.25rem;
+        line-height: 1.75rem
+      }
+    }
+
+    @media (min-width:1024px) {
+      .lg\:px-8 {
+        padding-left: 2rem;
+        padding-right: 2rem
+      }
+    }
+
+    @media (min-width:1024px) {
+      .lg\:p-0 {
+        padding: 0px
+      }
+    }
+
+    .tw-1rxq1b0 #nav-cb:checked~div label .menu {
+      display: none
+    }
+
+    .tw-1rxq1b0 #nav-cb:checked~div label .close,
+    .tw-1rxq1b0 #nav-cb:checked~.nav {
+      display: block
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .dark\:text-white {
+        --tw-text-opacity: 1;
+        color: #fff;
+        color: rgba(255, 255, 255, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .dark\:text-gray-100 {
+        --tw-text-opacity: 1;
+        color: #f3f4f6;
+        color: rgba(243, 244, 246, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .dark\:text-gray-200 {
+        --tw-text-opacity: 1;
+        color: #e5e7eb;
+        color: rgba(229, 231, 235, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .dark\:text-gray-50 {
+        --tw-text-opacity: 1;
+        color: #f9fafb;
+        color: rgba(249, 250, 251, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .dark\:text-gray-400 {
+        --tw-text-opacity: 1;
+        color: #9ca3af;
+        color: rgba(156, 163, 175, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .dark\:text-gray-300 {
+        --tw-text-opacity: 1;
+        color: #d1d5db;
+        color: rgba(209, 213, 219, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .dark\:bg-gray-900 {
+        --tw-bg-opacity: 1;
+        background-color: #111827;
+        background-color: rgba(17, 24, 39, var(--tw-bg-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .dark\:bg-gray-800 {
+        --tw-bg-opacity: 1;
+        background-color: #1f2937;
+        background-color: rgba(31, 41, 55, var(--tw-bg-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .dark\:border-gray-700 {
+        --tw-border-opacity: 1;
+        border-color: #374151;
+        border-color: rgba(55, 65, 81, var(--tw-border-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .dark\:border-gray-500 {
+        --tw-border-opacity: 1;
+        border-color: #6b7280;
+        border-color: rgba(107, 114, 128, var(--tw-border-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .dark\:hover\:text-gray-200:hover {
+        --tw-text-opacity: 1;
+        color: #e5e7eb;
+        color: rgba(229, 231, 235, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .dark\:hover\:text-gray-50:hover {
+        --tw-text-opacity: 1;
+        color: #f9fafb;
+        color: rgba(249, 250, 251, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .dark\:hover\:bg-gray-900:hover {
+        --tw-bg-opacity: 1;
+        background-color: #111827;
+        background-color: rgba(17, 24, 39, var(--tw-bg-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .dark\:focus\:text-gray-200:focus {
+        --tw-text-opacity: 1;
+        color: #e5e7eb;
+        color: rgba(229, 231, 235, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .dark\:focus\:text-gray-50:focus {
+        --tw-text-opacity: 1;
+        color: #f9fafb;
+        color: rgba(249, 250, 251, var(--tw-text-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .dark\:focus\:outline-none:focus {
+        outline: 2px solid transparent;
+        outline-offset: 2px
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .dark\:focus\:bg-gray-900:focus {
+        --tw-bg-opacity: 1;
+        background-color: #111827;
+        background-color: rgba(17, 24, 39, var(--tw-bg-opacity))
+      }
+    }
+
+    @media (prefers-color-scheme:dark) {
+      @media (min-width:768px) {
+        .dark\:md\:text-gray-400 {
+          --tw-text-opacity: 1;
+          color: #9ca3af;
+          color: rgba(156, 163, 175, var(--tw-text-opacity))
+        }
+      }
+    }
+  </style>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <link href="/manifest.json" rel="manifest" />
+  <link href="/static/apple-touch-icon.png" rel="apple-touch-icon" />
+  <meta content="white" media="(prefers-color-scheme: white)" name="theme-color" />
+  <meta content="black" media="(prefers-color-scheme: #111827})" name="theme-color" />
+  <title>mod.ts – oak – @v10.5.1 – deno.land/x | Deno Doc</title>
+  <meta content="summary_large_image" name="twitter:card" />
+  <meta content="@denoland" name="twitter:site" />
+  <meta content="@denoland" name="twitter:creator" />
+  <meta content="mod.ts – oak – @v10.5.1 – deno.land/x | Deno Doc" name="twitter:title" />
+  <meta content="https://doc.deno.land/img/https://deno.land/x/oak@v10.5.1/mod.ts/~/Application" name="twitter:image" />
+  <meta content="rendered description as image" name="twitter:image:alt" />
+  <meta content="A class which registers middleware (via .use()) and then processes inbound requests against that middleware (via .listen()).
+
+The context.state can be typed via passing a generic argument when constructing an instance of Application. It can also be inferred by setting the {@linkcode ApplicationOptions.state} option when constructing the application.
+
+Basic example
+
+import { Application } from &quot;https://deno.land/x/oak/mod.ts&quot;;
+
+const app = new Application();
+
+app.use((ctx, next) =&gt; {   // called on each request with the context (ctx) of the request,   // response, and other data.   // next() is use to modify the flow control of the middleware stack. });
+
+app.listen({ port: 8080 }); " name="twitter:description" />
+  <meta content="mod.ts – oak – @v10.5.1 – deno.land/x | Deno Doc" property="og:title" />
+  <meta content="https://doc.deno.land/img/https://deno.land/x/oak@v10.5.1/mod.ts/~/Application" property="og:image" />
+  <meta content="rendered description as image" property="og:image:alt" />
+  <meta content="A class which registers middleware (via .use()) and then processes inbound requests against that middleware (via .listen()).
+
+The context.state can be typed via passing a generic argument when constructing an instance of Application. It can also be inferred by setting the {@linkcode ApplicationOptions.state} option when constructing the application.
+
+Basic example
+
+import { Application } from &quot;https://deno.land/x/oak/mod.ts&quot;;
+
+const app = new Application();
+
+app.use((ctx, next) =&gt; {   // called on each request with the context (ctx) of the request,   // response, and other data.   // next() is use to modify the flow control of the middleware stack. });
+
+app.listen({ port: 8080 }); " property="og:description" />
+  <meta content="article" property="og:type" />
+  <meta content="A class which registers middleware (via .use()) and then processes inbound requests against that middleware (via .listen()).
+
+The context.state can be typed via passing a generic argument when constructing an instance of Application. It can also be inferred by setting the {@linkcode ApplicationOptions.state} option when constructing the application.
+
+Basic example
+
+import { Application } from &quot;https://deno.land/x/oak/mod.ts&quot;;
+
+const app = new Application();
+
+app.use((ctx, next) =&gt; {   // called on each request with the context (ctx) of the request,   // response, and other data.   // next() is use to modify the flow control of the middleware stack. });
+
+app.listen({ port: 8080 }); " name="description" />
+</head>
+
+<body>
+  <div class="h-screen bg-white dark:bg-gray-900 dark:text-white tw-z7l4kb">
+    <header class="bg-gray-50 border-b border-gray-200 relative py-6 z-10 dark:bg-gray-800 dark:border-gray-700">
+      <nav
+        class="mx-auto flex flex-wrap items-center justify-between px-4 sm:px-6 md:px-8 lg:p-0 max-w-screen-lg tw-1rxq1b0">
+        <a href="/" class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-auto sm:h-12 my-2"
+            viewBox="0 0 512 512">
+            <title>Deno logo</title>
+            <mask id="a">
+              <circle fill="white" cx="256" cy="256" r="230"></circle>
+            </mask>
+            <circle cx="256" cy="256" r="256"></circle>
+            <path mask="url(#a)" stroke="white" stroke-width="25" stroke-linecap="round"
+              d="M71 319l17-63M107.964 161.095l17-63M36.93 221l17-63M125.964 385l17-63M160.372 486.829l17-63M230 456.329l17-63M206.257 92.587l17-63M326.395 173.004l17-63M452.182 304.693l17-63M409.124 221l17-63M299.027 54.558l17-63M400.624 86.058l17-63">
+            </path>
+            <path mask="url(#a)" fill="white" stroke="black" stroke-width="12"
+              d="M252.225 344.418c-86.65 2.61-144.576-34.5-144.576-94.363 0-61.494 60.33-111.145 138.351-111.145 37.683 0 69.532 10.65 94.392 30.092 21.882 17.113 37.521 40.526 45.519 66.312 2.574 8.301 22.863 83.767 61.112 227.295l1.295 4.86-159.793 74.443-1.101-8.063c-8.85-64.778-16.546-113.338-23.076-145.634-3.237-16.004-6.178-27.96-8.79-35.794-1.227-3.682-2.355-6.361-3.303-7.952a12.56 12.56 0 00-.03-.05z">
+            </path>
+            <circle mask="url(#a)" cx="262" cy="203" r="16"></circle>
+          </svg></a><input aria-controls="menu" aria-expanded="false" aria-haspopup="true" aria-label="Navigation"
+          class="nav-cb hidden" id="nav-cb" type="checkbox" />
+        <div class="-mr-2 flex items-center md:hidden"><label for="nav-cb"
+            class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 dark:text-gray-100 dark:hover:text-gray-200 dark:hover:bg-gray-900 dark:focus:outline-none dark:focus:bg-gray-900 dark:focus:text-gray-200"><svg
+              stroke="currentColor" fill="none" viewBox="0 0 24 24" class="menu h-6 w-6">
+              <title>Menu | Deno</title>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"></path>
+            </svg><svg class="close h-6 w-6 hidden" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+              <title>Close Menu | Deno</title>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg></label></div>
+        <div class="nav md:flex md:w-auto hidden w-screen px-2 pt-4 pb-3"><a
+            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 md:inline-block md:font-medium md:text-gray-500 dark:text-gray-200 dark:hover:text-gray-50 dark:hover:bg-gray-900 dark:focus:text-gray-50 dark:focus:bg-gray-900 dark:md:text-gray-400"
+            href="https://deno.com/deploy">Deploy</a><a
+            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 md:inline-block md:font-medium md:text-gray-500 dark:text-gray-200 dark:hover:text-gray-50 dark:hover:bg-gray-900 dark:focus:text-gray-50 dark:focus:bg-gray-900 dark:md:text-gray-400"
+            href="https://deno.land/manual">Manual</a><a
+            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 md:inline-block md:font-medium md:text-gray-500 dark:text-gray-200 dark:hover:text-gray-50 dark:hover:bg-gray-900 dark:focus:text-gray-50 dark:focus:bg-gray-900 dark:md:text-gray-400"
+            href="https://deno.com/blog">Blog</a><a
+            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 md:inline-block md:font-medium md:text-gray-500 dark:text-gray-200 dark:hover:text-gray-50 dark:hover:bg-gray-900 dark:focus:text-gray-50 dark:focus:bg-gray-900 dark:md:text-gray-400"
+            href="/deno/stable">API</a><a
+            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 md:inline-block md:font-medium md:text-gray-500 dark:text-gray-200 dark:hover:text-gray-50 dark:hover:bg-gray-900 dark:focus:text-gray-50 dark:focus:bg-gray-900 dark:md:text-gray-400"
+            href="https://deno.land/std">Standard Library</a><a
+            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 md:inline-block md:font-medium md:text-gray-500 dark:text-gray-200 dark:hover:text-gray-50 dark:hover:bg-gray-900 dark:focus:text-gray-50 dark:focus:bg-gray-900 dark:md:text-gray-400"
+            href="https://deno.land/x">Third Party Modules</a></div>
+      </nav>
+    </header>
+    <div class="tw-j2pie2">
+      <nav class="tw-19rse9f">
+        <div>
+          <h2 class="text-gray-900 text-xl lg:text-2xl font-bold"><a href="/https://deno.land/x/oak@v10.5.1/mod.ts"
+              class="hover:underline">mod.ts</a></h2>
+          <h3 class="text-gray-900 dark:text-gray-50 lg:text-xl font-bold">oak</h3>
+          <h3 class="text-gray-600 dark:text-gray-400 text-sm mt-2">Registry</h3>
+          <p class="truncate">deno.land/x</p>
+          <div>
+            <h3 class="text-gray-600 dark:text-gray-400 text-sm mt-2">Package</h3>
+            <p class="truncate">oak</p>
+          </div>
+          <div>
+            <h3 class="text-gray-600 dark:text-gray-400 text-sm mt-2">Module</h3>
+            <p class="truncate">mod.ts</p>
+          </div>
+          <div>
+            <h3 class="text-gray-600 dark:text-gray-400 text-sm mt-2">Version</h3>
+            <p class="truncate">v10.5.1</p>
+          </div>
+          <div>
+            <h3 class="text-gray-600 dark:text-gray-400 text-sm mt-2">Source</h3>
+            <p class="truncate"><a href="https://deno.land/x/oak@v10.5.1/mod.ts" target="_blank" rel="noopener"
+                class="truncate"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link" role="img"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="h-3 mr-1 inline-block">
+                  <path fill="currentColor"
+                    d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z">
+                  </path>
+                </svg>https://deno.land/x/oak@v10.5.1/mod.ts</a></p>
+          </div>
+        </div>
+        <div>
+          <h3 class="tw-125763g">Application</h3>
+          <ul>
+            <li><a href="#Type_Parameters" class="truncate">Type Parameters</a></li>
+            <li><a href="#Extends" class="truncate">Extends</a></li>
+            <li><a href="#Constructors" class="truncate">Constructors</a></li>
+            <li><a href="#Properties" class="truncate">Properties</a></li>
+            <li><a href="#Methods" class="truncate">Methods</a></li>
+          </ul>
+        </div>
+      </nav>
+      <article class="tw-baauk4">
+        <h1 class="tw-d0anel">Application</h1>
+        <div>
+          <div class="tw-1esk77l">
+            <pre><button class="float-right px-2 font-sans focus-visible:ring-2 text-sm text-gray-500 dark:text-gray-300 border border-gray-300 dark:border-gray-500 rounded hover:shadow" type="button" onclick="copyImportStatement()">Copy</button><code><span class="code-keyword">import</span> { Application } <span class="code-keyword">from</span> <span class="code-string">"https://deno.land/x/oak@v10.5.1/mod.ts"</span>;</code></pre>
+          </div>
+          <script>function copyImportStatement() {
+              navigator.clipboard.writeText(`import { Application } from "https://deno.land/x/oak@v10.5.1/mod.ts";
+`);
+            }</script>
+        </div>
+        <div>
+          <div class="tw-1esk77l" id="mainDoc">
+            <p>A class which registers middleware (via <code>.use()</code>) and then processes
+              inbound requests against that middleware (via <code>.listen()</code>).</p>
+            <p>The <code>context.state</code> can be typed via passing a generic argument when
+              constructing an instance of <code>Application</code>. It can also be inferred by setting
+              the <a
+                href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/ApplicationOptions#state"><code>ApplicationOptions.state</code></a>
+              option when constructing the
+              application.</p>
+            <h3>Basic example</h3>
+            <pre><code><span class="code-keyword">import</span> { <span class="code-title code-class">Application</span> } <span class="code-keyword">from</span> <span class="code-string">"https://deno.land/x/oak/mod.ts"</span>;
+
+<span class="code-keyword">const</span> app = <span class="code-keyword">new</span> <span class="code-title code-class">Application</span>();
+
+app.<span class="code-title code-function">use</span>(<span class="code-function">(<span class="code-params">ctx, next</span>) =></span> {
+<span class="code-comment">// called on each request with the context (`ctx`) of the request,</span>
+<span class="code-comment">// response, and other data.</span>
+<span class="code-comment">// `next()` is use to modify the flow control of the middleware stack.</span>
+});
+
+app.<span class="code-title code-function">listen</span>({ <span class="code-attr">port</span>: <span class="code-number">8080</span> });
+</code></pre>
+          </div>
+        </div>
+        <div class="tw-1nkr705"><span class="tw-18hyoot">class</span> Application<span>
+            <<span><span class="tw-aagwe7">AS</span><span><span class="tw-18hyoot"> extends </span><span><a
+                    href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/State"
+                    class="tw-1h2u08d">State</a></span></span><span><span class="tw-18hyoot"> =
+                </span><span>Record<span>
+                    <<span class="tw-6yvgvw">string
+                  </span><span>, </span><span class="tw-6yvgvw">any</span>></span></span>
+          </span></span>></span><span><span class="tw-18hyoot"> extends </span>EventTarget</span> {<div
+            class="tw-iaiukg">
+            <div class="tw-1tdeu7j">
+              <div><span class="tw-18hyoot">constructor</span>(<span><span>options?<span>: <span><a
+                          href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/ApplicationOptions"
+                          class="tw-1h2u08d">ApplicationOptions</a><span>
+                          <<span>AS
+                        </span><span>, </span><span>ServerRequest</span>></span></span></span></span></span>);</div>
+            </div>
+            <div class="tw-1tdeu7j">
+              <div><span>handle</span>;</div>
+              <div><span class="tw-18hyoot">get </span><span>keys</span>()<span>: <span><span>KeyStack</span><span
+                      class="tw-18hyoot"> | </span><span><span>Key</span>[]</span><span class="tw-18hyoot"> |
+                    </span><span class="tw-6yvgvw">undefined</span></span></span>;</div>
+              <div><span class="tw-18hyoot">set </span><span>keys</span>(<span>keys<span>:
+                    <span><span>KeyStack</span><span class="tw-18hyoot"> | </span><span><span>Key</span>[]</span><span
+                        class="tw-18hyoot"> | </span><span class="tw-6yvgvw">undefined</span></span></span></span>);
+              </div>
+              <div><span>proxy</span><span>: <span class="tw-6yvgvw">boolean</span>;</span></div>
+              <div><span>state</span><span>: <span>AS</span>;</span></div>
+              <div> </div>
+              <div><span class="tw-z19beg">addEventListener</span><span>
+                  <<span><span class="tw-aagwe7">S</span><span><span class="tw-18hyoot"> extends
+                      </span><span>AS</span></span>
+                </span>></span>(<div class="tw-1tdeu7j"><span>type<span>: <span
+                        class="tw-2h7e3c">"error"</span></span></span>,</div>
+                <div class="tw-1tdeu7j"><span>listener<span>:
+                      <span><span>ApplicationErrorEventListenerOrEventListenerObject<span>
+                            <<span>S
+                          </span><span>, </span><span>AS</span>></span></span><span class="tw-18hyoot"> | </span><span
+                        class="tw-6yvgvw">null</span></span></span></span>,</div>
+                <div class="tw-1tdeu7j"><span>options?<span>: <span><span class="tw-6yvgvw">boolean</span><span
+                          class="tw-18hyoot"> | </span><span>AddEventListenerOptions</span></span></span></span>,</div>
+                )<span>: <span class="tw-6yvgvw">void</span></span>;
+              </div>
+              <div><span class="tw-z19beg">addEventListener</span>(<div class="tw-1tdeu7j"><span>type<span>: <span
+                        class="tw-2h7e3c">"listen"</span></span></span>,</div>
+                <div class="tw-1tdeu7j"><span>listener<span>:
+                      <span><span>ApplicationListenEventListenerOrEventListenerObject</span><span class="tw-18hyoot"> |
+                        </span><span class="tw-6yvgvw">null</span></span></span></span>,</div>
+                <div class="tw-1tdeu7j"><span>options?<span>: <span><span class="tw-6yvgvw">boolean</span><span
+                          class="tw-18hyoot"> | </span><span>AddEventListenerOptions</span></span></span></span>,</div>
+                )<span>: <span class="tw-6yvgvw">void</span></span>;
+              </div>
+              <div><span class="tw-z19beg">addEventListener</span>(<div class="tw-1tdeu7j"><span>type<span>: <span><span
+                          class="tw-2h7e3c">"error"</span><span class="tw-18hyoot"> | </span><span
+                          class="tw-2h7e3c">"listen"</span></span></span></span>,</div>
+                <div class="tw-1tdeu7j"><span>listener<span>: <span><span>EventListenerOrEventListenerObject</span><span
+                          class="tw-18hyoot"> | </span><span class="tw-6yvgvw">null</span></span></span></span>,</div>
+                <div class="tw-1tdeu7j"><span>options?<span>: <span><span class="tw-6yvgvw">boolean</span><span
+                          class="tw-18hyoot"> | </span><span>AddEventListenerOptions</span></span></span></span>,</div>
+                )<span>: <span class="tw-6yvgvw">void</span></span>;
+              </div>
+              <div><span class="tw-18hyoot">async </span><span class="tw-z19beg">listen</span>(<span>addr<span>: <span
+                      class="tw-6yvgvw">string</span></span></span>)<span>: <span>Promise<span>
+                      <<span class="tw-6yvgvw">void
+                    </span>></span></span></span>;</div>
+              <div><span class="tw-18hyoot">async </span><span class="tw-z19beg">listen</span>(<span>options?<span>:
+                    <span><a href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/ListenOptions"
+                        class="tw-1h2u08d">ListenOptions</a></span></span></span>)<span>: <span>Promise<span>
+                      <<span class="tw-6yvgvw">void
+                    </span>></span></span></span>;</div>
+              <div><span class="tw-18hyoot">async </span><span
+                  class="tw-z19beg">listen</span>(<span><span>options?<span>: <span><span
+                          class="tw-6yvgvw">string</span><span class="tw-18hyoot"> | </span><span><a
+                            href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/ListenOptions"
+                            class="tw-1h2u08d">ListenOptions</a></span></span></span></span></span>)<span>:
+                  <span>Promise<span>
+                      <<span class="tw-6yvgvw">void
+                    </span>></span></span></span>;</div>
+              <div><span class="tw-z19beg">use</span><span>
+                  <<span><span class="tw-aagwe7">S</span><span><span class="tw-18hyoot"> extends </span><span><a
+                          href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/State"
+                          class="tw-1h2u08d">State</a></span></span><span><span class="tw-18hyoot"> =
+                      </span><span>AS</span></span>
+                </span>></span>(<span>middleware<span>: <span><a
+                        href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/Middleware"
+                        class="tw-1h2u08d">Middleware</a><span>
+                        <<span>S
+                      </span><span>, </span><span><a href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/Context"
+                          class="tw-1h2u08d">Context</a><span>
+                          <<span>S
+                        </span><span>, </span><span>AS</span>></span></span>></span></span></span></span><span>,
+                </span><span>...<span>middlewares</span><span>: <span><span><a
+                          href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/Middleware"
+                          class="tw-1h2u08d">Middleware</a><span>
+                          <<span>S
+                        </span><span>, </span><span><a href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/Context"
+                            class="tw-1h2u08d">Context</a><span>
+                            <<span>S
+                          </span><span>,
+                          </span><span>AS</span>></span></span>></span></span>[]</span></span></span>)<span>: <span><a
+                      href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/Application"
+                      class="tw-1h2u08d">Application</a><span>
+                      <<span><span>S</span> <span class="tw-18hyoot">extends</span> <span>AS</span> ? <span>S</span> :
+                        <span>(<span><span>S</span><span class="tw-18hyoot"> & </span><span>AS</span></span>)</span>
+                    </span>></span></span></span>;</div>
+              <div><span class="tw-z19beg">use</span><span>
+                  <<span><span class="tw-aagwe7">S</span><span><span class="tw-18hyoot"> extends </span><span><a
+                          href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/State"
+                          class="tw-1h2u08d">State</a></span></span><span><span class="tw-18hyoot"> =
+                      </span><span>AS</span></span>
+                </span>></span>(<span>...<span>middleware</span><span>: <span><span><a
+                          href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/Middleware"
+                          class="tw-1h2u08d">Middleware</a><span>
+                          <<span>S
+                        </span><span>, </span><span><a href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/Context"
+                            class="tw-1h2u08d">Context</a><span>
+                            <<span>S
+                          </span><span>,
+                          </span><span>AS</span>></span></span>></span></span>[]</span></span></span>)<span>: <span><a
+                      href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/Application"
+                      class="tw-1h2u08d">Application</a><span>
+                      <<span><span>S</span> <span class="tw-18hyoot">extends</span> <span>AS</span> ? <span>S</span> :
+                        <span>(<span><span>S</span><span class="tw-18hyoot"> & </span><span>AS</span></span>)</span>
+                    </span>></span></span></span>;</div>
+              <div><span>[Symbol.for("Deno.customInspect")]</span>(<span>inspect<span>: <span>(<span>value<span>: <span
+                            class="tw-6yvgvw">unknown</span></span></span>) => <span
+                        class="tw-6yvgvw">string</span></span></span></span>);</div>
+              <div><span>[Symbol.for("nodejs.util.inspect.custom")]</span>(<div class="tw-1tdeu7j"><span>depth<span>:
+                      <span class="tw-6yvgvw">number</span></span></span>,</div>
+                <div class="tw-1tdeu7j"><span>options<span>: <span class="tw-6yvgvw">any</span></span></span>,</div>
+                <div class="tw-1tdeu7j"><span>inspect<span>: <span>(<span>value<span>: <span
+                              class="tw-6yvgvw">unknown</span></span></span><span>, </span><span>options?<span>: <span
+                              class="tw-6yvgvw">unknown</span></span></span>) => <span
+                          class="tw-6yvgvw">string</span></span></span></span>,</div>);
+              </div>
+            </div>
+          </div>}</div>
+        <div class="tw-1owjy05">
+          <div>
+            <h2 class="tw-17gss7d" id="Type_Parameters"><a href="#Type_Parameters" class="tw-xn3ar9" aria-label="Anchor"
+                tabIndex="-1">§</a>Type Parameters</h2>
+            <div class="tw-vfhdfy group" id="AS"><a href="#AS" class="tw-xn3ar9" aria-label="Anchor" tabIndex="-1">§</a>
+              <div class="tw-8ej7ai">
+                <div class="flex justify-between">
+                  <div class="overflow-auto font-mono break-words"><span><span class="tw-1h4nwdw">AS</span><span><span
+                          class="tw-1h4nwdw"> extends </span><span><a
+                            href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/State"
+                            class="tw-1h2u08d">State</a></span></span><span><span class="tw-1h4nwdw"> =
+                        </span><span>Record<span>
+                            <<span class="tw-1h4nwdw">string
+                          </span><span>, </span><span class="tw-1h4nwdw">any</span>></span></span></span></span></div><a
+                    href="https://deno.land/x/oak@v10.5.1/application.ts#L258" target="_blank"
+                    class="pl-2 break-words text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 hover:underline">[src]</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h2 class="tw-17gss7d" id="Extends"><a href="#Extends" class="tw-xn3ar9" aria-label="Anchor"
+                tabIndex="-1">§</a>Extends</h2>
+            <div class="tw-vfhdfy group" id="extends_EventTarget"><a href="#extends_EventTarget" class="tw-xn3ar9"
+                aria-label="Anchor" tabIndex="-1">§</a>
+              <div class="tw-8ej7ai">
+                <div class="flex justify-between">
+                  <div class="overflow-auto font-mono break-words">EventTarget</div><a
+                    href="https://deno.land/x/oak@v10.5.1/application.ts#L258" target="_blank"
+                    class="pl-2 break-words text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 hover:underline">[src]</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h2 class="tw-17gss7d" id="Constructors"><a href="#Constructors" class="tw-xn3ar9" aria-label="Anchor"
+                tabIndex="-1">§</a>Constructors</h2>
+            <div class="tw-vfhdfy group" id="ctor_0"><a href="#ctor_0" class="tw-xn3ar9" aria-label="Anchor"
+                tabIndex="-1">§</a>
+              <div class="tw-8ej7ai">
+                <div class="flex justify-between">
+                  <div class="overflow-auto font-mono break-words"><span class="tw-1dhtncf">new
+                    </span>Application(<span><span>options?<span>: <span><a
+                              href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/ApplicationOptions"
+                              class="tw-1h2u08d">ApplicationOptions</a><span>
+                              <<span>AS
+                            </span><span>, </span><span>ServerRequest</span>></span></span></span></span></span>)</div>
+                  <a href="https://deno.land/x/oak@v10.5.1/application.ts#L303" target="_blank"
+                    class="pl-2 break-words text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 hover:underline">[src]</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h2 class="tw-17gss7d" id="Properties"><a href="#Properties" class="tw-xn3ar9" aria-label="Anchor"
+              tabIndex="-1">§</a>Properties</h2>
+          <div class="tw-vfhdfy group" id="handle"><a href="#handle" class="tw-xn3ar9" aria-label="Anchor"
+              tabIndex="-1">§</a>
+            <div class="tw-8ej7ai">
+              <div class="flex justify-between">
+                <div class="overflow-auto font-mono break-words">handle</div><a
+                  href="https://deno.land/x/oak@v10.5.1/application.ts#L456" target="_blank"
+                  class="pl-2 break-words text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 hover:underline">[src]</a>
+              </div>
+              <div>
+                <div class="tw-1esk77l">
+                  <p>Handle an individual server request, returning the server response. This
+                    is similar to <code>.listen()</code>, but opening the connection and retrieving
+                    requests are not the responsibility of the application. If the generated
+                    context gets set to not to respond, then the method resolves with
+                    <code>undefined</code>, otherwise it resolves with a request that is compatible with
+                    <code>std/http/server</code>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tw-vfhdfy group" id="keys"><a href="#keys" class="tw-xn3ar9" aria-label="Anchor"
+              tabIndex="-1">§</a>
+            <div class="tw-8ej7ai">
+              <div class="flex justify-between">
+                <div class="overflow-auto font-mono break-words">keys<span>: <span><span>KeyStack</span><span
+                        class="tw-1h4nwdw"> | </span><span><span>Key</span>[]</span><span class="tw-1h4nwdw"> |
+                      </span><span class="tw-1h4nwdw">undefined</span></span></span></div><a
+                  href="https://deno.land/x/oak@v10.5.1/application.ts#L269" target="_blank"
+                  class="pl-2 break-words text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 hover:underline">[src]</a>
+              </div>
+              <div>
+                <div class="tw-1esk77l">
+                  <p>A set of keys, or an instance of <code>KeyStack</code> which will be used to sign
+                    cookies read and set by the application to avoid tampering with the
+                    cookies.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tw-vfhdfy group" id="proxy"><a href="#proxy" class="tw-xn3ar9" aria-label="Anchor"
+              tabIndex="-1">§</a>
+            <div class="tw-8ej7ai">
+              <div class="flex justify-between">
+                <div class="overflow-auto font-mono break-words">proxy<span>: <span
+                      class="tw-1h4nwdw">boolean</span></span></div><a
+                  href="https://deno.land/x/oak@v10.5.1/application.ts#L286" target="_blank"
+                  class="pl-2 break-words text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 hover:underline">[src]</a>
+              </div>
+              <div>
+                <div class="tw-1esk77l">
+                  <p>If <code>true</code>, proxy headers will be trusted when processing requests. This
+                    defaults to <code>false</code>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tw-vfhdfy group" id="state"><a href="#state" class="tw-xn3ar9" aria-label="Anchor"
+              tabIndex="-1">§</a>
+            <div class="tw-8ej7ai">
+              <div class="flex justify-between">
+                <div class="overflow-auto font-mono break-words">state<span>: <span>AS</span></span></div><a
+                  href="https://deno.land/x/oak@v10.5.1/application.ts#L301" target="_blank"
+                  class="pl-2 break-words text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 hover:underline">[src]</a>
+              </div>
+              <div>
+                <div class="tw-1esk77l">
+                  <p>Generic state of the application, which can be specified by passing the
+                    generic argument when constructing:</p>
+                  <pre><code>  const app = new Application&lt;{ foo: string }&gt;();
+</code></pre>
+                  <p>Or can be contextually inferred based on setting an initial state object:</p>
+                  <pre><code>  const app = new Application({ state: { foo: &quot;bar&quot; } });
+</code></pre>
+                  <p>When a new context is created, the application's state is cloned and the
+                    state is unique to that request/response. Changes can be made to the
+                    application state that will be shared with all contexts.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h2 class="tw-17gss7d" id="Methods"><a href="#Methods" class="tw-xn3ar9" aria-label="Anchor"
+              tabIndex="-1">§</a>Methods</h2>
+          <div class="tw-vfhdfy group" id="addEventListener"><a href="#addEventListener" class="tw-xn3ar9"
+              aria-label="Anchor" tabIndex="-1">§</a>
+            <div class="tw-8ej7ai">
+              <div class="flex justify-between">
+                <div class="overflow-auto font-mono break-words">addEventListener<span>
+                    <<span><span class="tw-1h4nwdw">S</span><span><span class="tw-1h4nwdw"> extends
+                        </span><span>AS</span></span>
+                  </span>></span>(<span>type<span>: <span class="tw-1h4nwdw">"error"</span></span></span><span>,
+                  </span><span>listener<span>: <span><span>ApplicationErrorEventListenerOrEventListenerObject<span>
+                            <<span>S
+                          </span><span>, </span><span>AS</span>></span></span><span class="tw-1h4nwdw"> | </span><span
+                        class="tw-1h4nwdw">null</span></span></span></span><span>, </span><span>options?<span>:
+                      <span><span class="tw-1h4nwdw">boolean</span><span class="tw-1h4nwdw"> |
+                        </span><span>AddEventListenerOptions</span></span></span></span>)<span>: <span
+                      class="tw-1h4nwdw">void</span></span></div><a
+                  href="https://deno.land/x/oak@v10.5.1/application.ts#L428" target="_blank"
+                  class="pl-2 break-words text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 hover:underline">[src]</a>
+              </div>
+              <div>
+                <div class="tw-1esk77l">
+                  <p>Add an event listener for an <code>&quot;error&quot;</code> event which occurs when an
+                    un-caught error occurs when processing the middleware or during processing
+                    of the response.</p>
+                </div>
+              </div>
+            </div>
+            <div class="tw-8ej7ai">
+              <div class="flex justify-between">
+                <div class="overflow-auto font-mono break-words">addEventListener(<span>type<span>: <span
+                        class="tw-1h4nwdw">"listen"</span></span></span><span>, </span><span>listener<span>:
+                      <span><span>ApplicationListenEventListenerOrEventListenerObject</span><span class="tw-1h4nwdw"> |
+                        </span><span class="tw-1h4nwdw">null</span></span></span></span><span>,
+                  </span><span>options?<span>: <span><span class="tw-1h4nwdw">boolean</span><span class="tw-1h4nwdw"> |
+                        </span><span>AddEventListenerOptions</span></span></span></span>)<span>: <span
+                      class="tw-1h4nwdw">void</span></span></div><a
+                  href="https://deno.land/x/oak@v10.5.1/application.ts#L435" target="_blank"
+                  class="pl-2 break-words text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 hover:underline">[src]</a>
+              </div>
+              <div>
+                <div class="tw-1esk77l">
+                  <p>Add an event listener for a <code>&quot;listen&quot;</code> event which occurs when the server
+                    has successfully opened but before any requests start being processed.</p>
+                </div>
+              </div>
+            </div>
+            <div class="tw-8ej7ai">
+              <div class="flex justify-between">
+                <div class="overflow-auto font-mono break-words">addEventListener(<span>type<span>: <span><span
+                          class="tw-1h4nwdw">"error"</span><span class="tw-1h4nwdw"> | </span><span
+                          class="tw-1h4nwdw">"listen"</span></span></span></span><span>, </span><span>listener<span>:
+                      <span><span>EventListenerOrEventListenerObject</span><span class="tw-1h4nwdw"> | </span><span
+                          class="tw-1h4nwdw">null</span></span></span></span><span>, </span><span>options?<span>:
+                      <span><span class="tw-1h4nwdw">boolean</span><span class="tw-1h4nwdw"> |
+                        </span><span>AddEventListenerOptions</span></span></span></span>)<span>: <span
+                      class="tw-1h4nwdw">void</span></span></div><a
+                  href="https://deno.land/x/oak@v10.5.1/application.ts#L442" target="_blank"
+                  class="pl-2 break-words text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 hover:underline">[src]</a>
+              </div>
+              <div>
+                <div class="tw-1esk77l">
+                  <p>Add an event listener for an event. Currently valid event types are
+                    <code>&quot;error&quot;</code> and <code>&quot;listen&quot;</code>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tw-vfhdfy group" id="listen"><a href="#listen" class="tw-xn3ar9" aria-label="Anchor"
+              tabIndex="-1">§</a>
+            <div class="tw-8ej7ai">
+              <div class="flex justify-between">
+                <div class="overflow-auto font-mono break-words">listen(<span>addr<span>: <span
+                        class="tw-1h4nwdw">string</span></span></span>)<span>: <span>Promise<span>
+                        <<span class="tw-1h4nwdw">void
+                      </span>></span></span></span></div><a href="https://deno.land/x/oak@v10.5.1/application.ts#L501"
+                  target="_blank"
+                  class="pl-2 break-words text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 hover:underline">[src]</a>
+              </div>
+              <div>
+                <div class="tw-1esk77l">
+                  <p>Start listening for requests, processing registered middleware on each
+                    request. If the options <code>.secure</code> is undefined or <code>false</code>, the listening
+                    will be over HTTP. If the options <code>.secure</code> property is <code>true</code>, a
+                    <code>.certFile</code> and a <code>.keyFile</code> property need to be supplied and requests
+                    will be processed over HTTPS.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="tw-8ej7ai">
+              <div class="flex justify-between">
+                <div class="overflow-auto font-mono break-words">listen(<span>options?<span>: <span><a
+                          href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/ListenOptions"
+                          class="tw-1h2u08d">ListenOptions</a></span></span></span>)<span>: <span>Promise<span>
+                        <<span class="tw-1h4nwdw">void
+                      </span>></span></span></span></div><a href="https://deno.land/x/oak@v10.5.1/application.ts#L510"
+                  target="_blank"
+                  class="pl-2 break-words text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 hover:underline">[src]</a>
+              </div>
+              <div>
+                <div class="tw-1esk77l">
+                  <p>Start listening for requests, processing registered middleware on each
+                    request. If the options <code>.secure</code> is undefined or <code>false</code>, the listening
+                    will be over HTTP. If the options <code>.secure</code> property is <code>true</code>, a
+                    <code>.certFile</code> and a <code>.keyFile</code> property need to be supplied and requests
+                    will be processed over HTTPS.
+                  </p>
+                  <p>Omitting options will default to <code>{ port: 0 }</code> which allows the operating
+                    system to select the port.</p>
+                </div>
+              </div>
+            </div>
+            <div class="tw-8ej7ai">
+              <div class="flex justify-between">
+                <div class="overflow-auto font-mono break-words">listen(<span><span>options?<span>: <span><span
+                            class="tw-1h4nwdw">string</span><span class="tw-1h4nwdw"> | </span><span><a
+                              href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/ListenOptions"
+                              class="tw-1h2u08d">ListenOptions</a></span></span></span></span></span>)<span>:
+                    <span>Promise<span>
+                        <<span class="tw-1h4nwdw">void
+                      </span>></span></span></span></div><a href="https://deno.land/x/oak@v10.5.1/application.ts#L511"
+                  target="_blank"
+                  class="pl-2 break-words text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 hover:underline">[src]</a>
+              </div>
+            </div>
+          </div>
+          <div class="tw-vfhdfy group" id="use"><a href="#use" class="tw-xn3ar9" aria-label="Anchor" tabIndex="-1">§</a>
+            <div class="tw-8ej7ai">
+              <div class="flex justify-between">
+                <div class="overflow-auto font-mono break-words">use<span>
+                    <<span><span class="tw-1h4nwdw">S</span><span><span class="tw-1h4nwdw"> extends </span><span><a
+                            href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/State"
+                            class="tw-1h2u08d">State</a></span></span><span><span class="tw-1h4nwdw"> =
+                        </span><span>AS</span></span>
+                  </span>></span>(<span>middleware<span>: <span><a
+                          href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/Middleware"
+                          class="tw-1h2u08d">Middleware</a><span>
+                          <<span>S
+                        </span><span>, </span><span><a href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/Context"
+                            class="tw-1h2u08d">Context</a><span>
+                            <<span>S
+                          </span><span>, </span><span>AS</span>></span></span>></span></span></span></span><span>,
+                  </span><span>...<span>middlewares</span><span>: <span><span><a
+                            href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/Middleware"
+                            class="tw-1h2u08d">Middleware</a><span>
+                            <<span>S
+                          </span><span>, </span><span><a href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/Context"
+                              class="tw-1h2u08d">Context</a><span>
+                              <<span>S
+                            </span><span>,
+                            </span><span>AS</span>></span></span>></span></span>[]</span></span></span>)<span>: <span><a
+                        href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/Application"
+                        class="tw-1h2u08d">Application</a><span>
+                        <<span><span>S</span> <span class="tw-1h4nwdw">extends</span> <span>AS</span> ? <span>S</span> :
+                          <span>(<span><span>S</span><span class="tw-1h4nwdw"> & </span><span>AS</span></span>)</span>
+                      </span>></span></span></span></div><a href="https://deno.land/x/oak@v10.5.1/application.ts#L594"
+                  target="_blank"
+                  class="pl-2 break-words text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 hover:underline">[src]</a>
+              </div>
+              <div>
+                <div class="tw-1esk77l">
+                  <p>Register middleware to be used with the application. Middleware will
+                    be processed in the order it is added, but middleware can control the flow
+                    of execution via the use of the <code>next()</code> function that the middleware
+                    function will be called with. The <code>context</code> object provides information
+                    about the current state of the application.</p>
+                  <p>Basic usage:</p>
+                  <pre><code><span class="code-keyword">const</span> <span class="code-keyword">import</span> { <span class="code-title code-class">Application</span> } <span class="code-keyword">from</span> <span class="code-string">"https://deno.land/x/oak/mod.ts"</span>;
+
+<span class="code-keyword">const</span> app = <span class="code-keyword">new</span> <span class="code-title code-class">Application</span>();
+
+app.<span class="code-title code-function">use</span>(<span class="code-function">(<span class="code-params">ctx, next</span>) =></span> {
+ctx.<span class="code-property">request</span>; <span class="code-comment">// contains request information</span>
+ctx.<span class="code-property">response</span>; <span class="code-comment">// setups up information to use in the response;</span>
+<span class="code-keyword">await</span> <span class="code-title code-function">next</span>(); <span class="code-comment">// manages the flow control of the middleware execution</span>
+});
+
+<span class="code-keyword">await</span> app.<span class="code-title code-function">listen</span>({ <span class="code-attr">port</span>: <span class="code-number">80</span> });
+</code></pre>
+                </div>
+              </div>
+            </div>
+            <div class="tw-8ej7ai">
+              <div class="flex justify-between">
+                <div class="overflow-auto font-mono break-words">use<span>
+                    <<span><span class="tw-1h4nwdw">S</span><span><span class="tw-1h4nwdw"> extends </span><span><a
+                            href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/State"
+                            class="tw-1h2u08d">State</a></span></span><span><span class="tw-1h4nwdw"> =
+                        </span><span>AS</span></span>
+                  </span>></span>(<span>...<span>middleware</span><span>: <span><span><a
+                            href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/Middleware"
+                            class="tw-1h2u08d">Middleware</a><span>
+                            <<span>S
+                          </span><span>, </span><span><a href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/Context"
+                              class="tw-1h2u08d">Context</a><span>
+                              <<span>S
+                            </span><span>,
+                            </span><span>AS</span>></span></span>></span></span>[]</span></span></span>)<span>: <span><a
+                        href="/https://deno.land/x/oak@v10.5.1/mod.ts/~/Application"
+                        class="tw-1h2u08d">Application</a><span>
+                        <<span><span>S</span> <span class="tw-1h4nwdw">extends</span> <span>AS</span> ? <span>S</span> :
+                          <span>(<span><span>S</span><span class="tw-1h4nwdw"> & </span><span>AS</span></span>)</span>
+                      </span>></span></span></span></div><a href="https://deno.land/x/oak@v10.5.1/application.ts#L598"
+                  target="_blank"
+                  class="pl-2 break-words text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 hover:underline">[src]</a>
+              </div>
+            </div>
+          </div>
+          <div class="tw-vfhdfy group" id="_Symbol.for(&quot;Deno.customInspect&quot;)_"><a
+              href="#_Symbol.for(&quot;Deno.customInspect&quot;)_" class="tw-xn3ar9" aria-label="Anchor"
+              tabIndex="-1">§</a>
+            <div class="tw-8ej7ai">
+              <div class="flex justify-between">
+                <div class="overflow-auto font-mono break-words">[Symbol.for("Deno.customInspect")](<span>inspect<span>:
+                      <span>(<span>value<span>: <span class="tw-1h4nwdw">unknown</span></span></span>) => <span
+                          class="tw-1h4nwdw">string</span></span></span></span>)</div><a
+                  href="https://deno.land/x/oak@v10.5.1/application.ts#L607" target="_blank"
+                  class="pl-2 break-words text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 hover:underline">[src]</a>
+              </div>
+            </div>
+          </div>
+          <div class="tw-vfhdfy group" id="_Symbol.for(&quot;nodejs.util.inspect.custom&quot;)_"><a
+              href="#_Symbol.for(&quot;nodejs.util.inspect.custom&quot;)_" class="tw-xn3ar9" aria-label="Anchor"
+              tabIndex="-1">§</a>
+            <div class="tw-8ej7ai">
+              <div class="flex justify-between">
+                <div class="overflow-auto font-mono break-words">
+                  [Symbol.for("nodejs.util.inspect.custom")](<span>depth<span>: <span
+                        class="tw-1h4nwdw">number</span></span></span><span>, </span><span>options<span>: <span
+                        class="tw-1h4nwdw">any</span></span></span><span>, </span><span>inspect<span>:
+                      <span>(<span>value<span>: <span class="tw-1h4nwdw">unknown</span></span></span><span>,
+                        </span><span>options?<span>: <span class="tw-1h4nwdw">unknown</span></span></span>) => <span
+                          class="tw-1h4nwdw">string</span></span></span></span>)</div><a
+                  href="https://deno.land/x/oak@v10.5.1/application.ts#L614" target="_blank"
+                  class="pl-2 break-words text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 hover:underline">[src]</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+    <footer class="mt-20 max-w-screen-xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+      <nav class="-mx-5 -my-2 flex flex-wrap justify-center">
+        <div class="p-2"><a
+            class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
+            href="https://deno.land/manual">Manual</a></div>
+        <div class="p-2"><a
+            class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
+            href="/deno/stable">API</a></div>
+        <div class="p-2"><a
+            class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
+            href="https://deno.land/std">Standard Library</a></div>
+        <div class="p-2"><a
+            class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
+            href="https://deno.land/x">Third Party Modules</a></div>
+        <div class="p-2"><a
+            class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
+            href="https://deno.land/benchmarks">Benchmarks</a></div>
+        <div class="p-2"><a
+            class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
+            href="https://deno.land/artwork">Artwork</a></div>
+        <div class="p-2"><a
+            class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
+            href="https://deno.com/blog">Blog</a></div>
+        <div class="p-2"><a
+            class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
+            href="https://deno.land/translations">Translations</a></div>
+        <div class="p-2"><a
+            class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
+            href="https://status.deno.land/">System Status</a></div>
+        <div class="p-2"><a
+            class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
+            href="https://github.com/denoland/deno/wiki#companies-interested-in-deno">Companies interested in Deno</a>
+        </div>
+      </nav>
+      <script>if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js");</script>
+    </footer>
+  </div>
+</body>
+
+</html>
