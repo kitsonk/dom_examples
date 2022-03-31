@@ -1,7 +1,7 @@
 import { JSDOM } from "jsdom";
 import { assert } from "https://deno.land/std@0.132.0/testing/asserts.ts";
 
-const dom = new JSDOM(
+const { window: { document } } = new JSDOM(
   `<!DOCTYPE html>
 <html lang="en">
   <head>
@@ -25,7 +25,7 @@ const dom = new JSDOM(
   },
 );
 
-const h1 = dom.window.document.querySelector("h1");
+const h1 = document.querySelector("h1");
 assert(h1);
 
 console.log(h1.textContent);
