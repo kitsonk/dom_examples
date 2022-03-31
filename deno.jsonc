@@ -12,7 +12,7 @@
   "tasks": {
     "bench": "deno bench --unstable --no-check=remote --allow-env --allow-ffi --allow-read=. bench.ts",
     "deno_dom": "deno run main_dd.ts",
-    "deno_dom:native": "deno run --unstable --allow-env --allow-ffi main_ddn.ts",
+    "deno_dom:native": "deno run --unstable --allow-env --allow-ffi --allow-read --allow-write --allow-net main_ddn.ts",
     "jsdom": "deno run --no-check=remote --allow-env main_js.ts",
     "linkedom": "deno run --no-check=remote main_ld.ts",
     "serve:deno_dom": "deno run --allow-net server_dd.ts",

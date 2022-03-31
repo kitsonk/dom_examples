@@ -13,7 +13,9 @@ The `deno.jsonc` contains several tasks to run the examples.
 ## Notes
 
 Both the benchmarks and the `deno_dom:native` task uses the _deno-dom_ FFI
-interface to directly call into Rust. This requires that the native version of
+interface to directly call into Rust. If you are on a supported platform, there
+are already built binaries that will be cached. If you are on a currently
+unsupported version (ARM64, M1) then this requires that the native version of
 the code of the library to be built and the `DENO_DOM_PLUGIN` environment
 variable to point to that library. For instructions on how to do that, see:
 https://github.com/b-fuze/deno-dom#building-deno-dom-native
